@@ -13,7 +13,7 @@ const HomeCard = ({ className, description, img, title, handleClick }: HomeCardP
     return (
         <div 
         className={cn(
-            "px-4 py-6 flex flex-col justify-between w-full xl:max-w-[270px] min-h-[260px] rounded-[14px] cursor-pointer",
+            "px-4 py-6 flex flex-col justify-between w-full xl:max-w-[290px] min-h-[290px] rounded-[14px] cursor-pointer",
             className
             )} 
             onClick={handleClick}>
@@ -30,4 +30,4 @@ const HomeCard = ({ className, description, img, title, handleClick }: HomeCardP
 }
 export default HomeCard
 
-// 1:39:33
+// 1:43:23
