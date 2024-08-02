@@ -33,5 +33,3 @@ const Meeting = ({ params: { id } }: { params: { id: string } }) => {
   )
 }
 export default Meeting
-
-//2:48:56
